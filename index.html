@@ -4,9 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT Sans Narrow">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script> 
     <title>Rock Paper Scissors Game</title>
 </head>
 <body>
-    <script src="script.js"></script> 
+    <div class='container' id='navbar'>
+        <p><strong>R O C K _ P A P E R _ S C I S S O R S</strong></p>
+    </div>
+
+    <div class='container' id='options'>
+        <img class='option' id='rock' src="./images/rock.png" alt="rock">
+        <img class='option' id='paper' src="./images/paper.png" alt="paper">
+        <img class='option' id='scissors' src="./images/scissors.png" alt="scissors">
+    </div>
+
+    <div class='container' id='messageLayer'>
+        <div id='message'>
+            <p>First to reach 5 points win. Pick an option.</p>
+        </div>
+    </div>
+
+    <div id='scores'>
+        <div class='container' id='scoreContainer'>
+            <div class='scoreBoard' id='player'>
+                <span>Player</span>
+                <span class='score' id='playerScore'>0</span>
+            </div>
+            <div class='scoreBoard'>
+                <span>Computer</span>
+                <span class='score' id='computerScore'>0</span>
+            </div>
+        </div>
+    </div>
+    <div id='result'></div>
+    <div id='playAgain'></div>
 </body>
 </html>

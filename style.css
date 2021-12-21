@@ -1,0 +1,91 @@
+body{
+    padding:0;
+    margin:0;
+    font-family: 'PT Sans Narrow', 'Helvetica';
+    background-color: #F0F0F0;
+}
+
+.container{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    gap: 1.5%;
+    padding: 25px;
+    background-color: #F0F0F0;
+}
+
+.scoreBoard{
+    display: flex;
+    flex:1;
+    flex-direction: column;
+    justify-content: center;
+    width: 100px;
+    text-align: center;
+    background-color: #ffeb00;
+    padding: 20px 0;
+}
+
+#messageLayer{
+    padding-bottom: 0;
+}
+
+#options{
+    background-color: white;
+}
+
+img{
+    width: 10%;
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+img:hover:not(#resultImage){
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#scores{
+    background-color: #F0F0F0;
+}
+
+.score{
+    font-size: 38px;
+}
+
+#scoreContainer{
+    width: 15%;
+    height:auto;
+    align-self: center;
+    margin: 0 auto;
+    gap: 10%;
+}
+
+#result{
+    text-align: center;
+    padding: 4%;
+    background-color: white;
+}
+
+#resultImage{
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+#playAgain{
+    background-color: #F0F0F0;
+    padding: 4%;
+}
+
+button{
+    padding: 20px;
+    background-color: #ffeb00;
+    border-radius: 8px;
+    border: 0;
+    display: block;
+    margin: 0 auto;
+}
+
+button:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
